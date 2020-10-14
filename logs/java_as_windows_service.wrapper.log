@@ -1,0 +1,27 @@
+2020-10-14 14:01:56,078 DEBUG - Starting WinSW in console mode
+2020-10-14 14:02:00,841 DEBUG - Starting WinSW in console mode
+2020-10-14 14:02:01,776 INFO  - Installing the service with id 'java_as_windows_service'
+2020-10-14 14:02:01,803 DEBUG - Completed. Exit code is 0
+2020-10-14 14:02:13,017 DEBUG - Starting WinSW in service mode
+2020-10-14 14:02:13,057 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar target/executable.jar
+2020-10-14 14:02:13,088 INFO  - Started process 9484
+2020-10-14 14:02:13,095 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
+2020-10-14 14:03:23,938 INFO  - Stopping java_as_windows_service
+2020-10-14 14:03:23,963 DEBUG - ProcessKill 9484
+2020-10-14 14:03:23,967 INFO  - Stopping process 9484
+2020-10-14 14:03:24,301 INFO  - Finished java_as_windows_service
+2020-10-14 14:03:24,307 DEBUG - Completed. Exit code is 0
+2020-10-14 14:03:41,921 DEBUG - Starting WinSW in service mode
+2020-10-14 14:03:41,972 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar target/executable.jar
+2020-10-14 14:03:41,990 INFO  - Started process 15176
+2020-10-14 14:03:42,010 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
+2020-10-14 14:11:01,534 DEBUG - Starting WinSW in console mode
+2020-10-14 14:11:06,162 DEBUG - Starting WinSW in console mode
+2020-10-14 14:11:07,024 INFO  - Stopping the service with id 'java_as_windows_service'
+2020-10-14 14:11:07,047 INFO  - Stopping java_as_windows_service
+2020-10-14 14:11:07,047 DEBUG - ProcessKill 15176
+2020-10-14 14:11:07,057 INFO  - Stopping process 15176
+2020-10-14 16:00:28,544 DEBUG - Starting WinSW in service mode
+2020-10-14 16:00:28,586 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar target/executable.jar
+2020-10-14 16:00:28,618 INFO  - Started process 3532
+2020-10-14 16:00:28,623 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
