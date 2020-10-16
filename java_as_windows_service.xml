@@ -1,15 +1,13 @@
-    <service>
-      <id>java_as_windows_service</id>
-      <name>java_as_windows_service_name</name>
-      <description>This service is based on java</description>
-      <executable>C:\Program Files\Java\jdk1.8.0_201\bin\java</executable>
-      <arguments>-jar target/executable.jar</arguments>
-	  <logpath>%BASE%\logs</logpath>
-      <!--<logmode>rotate</logmode>-->
-	  
-	  <log mode="roll-by-time">
-		  <pattern>yyyyMMdd</pattern>
-		</log>
-	
-
-    </service>
+<service>
+  <id>java_as_windows_service</id>
+  <name>java_as_windows_service_name</name>
+  <description>This service is based on java</description>
+  <executable>C:\Program Files\Java\jdk1.8.0_201\bin\java</executable>
+  <arguments>-jar executable.jar</arguments>
+  <logpath>%BASE%\logs</logpath>
+  <!--<logmode>rotate</logmode>-->
+  
+  <log mode="roll-by-time">
+	  <pattern>yyyyMMdd</pattern>
+	</log>
+</service>

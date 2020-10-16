@@ -14,13 +14,24 @@ import java.util.logging.Logger;
  */
 public class ServiceClass {
 
+    public static Logger LOGGER = Logger.getLogger(ServiceClass.class.getName());
+
     public static void main(String[] args) {
+        int counter = 1;
         while (true) {
             System.out.println("" + new Date());
+            System.err.println("I am System.err.println");
+            LOGGER.log(Level.INFO, "I am  LOGGER.log(Level.INFO ");
+            LOGGER.log(Level.SEVERE, "I am  LOGGER.log(Level.SEVERE ");
             try {
                 Thread.sleep(1000L);
+                counter++;
+                if (counter % 2 == 0) {
+                    throw new InterruptedException("For even loop counter.");
+                }
             } catch (InterruptedException ex) {
-                Logger.getLogger(ServiceClass.class.getName()).log(Level.SEVERE, null, ex);
+                LOGGER.log(Level.SEVERE, null, ex);
+                ex.printStackTrace();
             }
         }
     }

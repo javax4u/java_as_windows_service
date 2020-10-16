@@ -25,3 +25,24 @@
 2020-10-14 16:00:28,586 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar target/executable.jar
 2020-10-14 16:00:28,618 INFO  - Started process 3532
 2020-10-14 16:00:28,623 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
+2020-10-15 10:22:00,001 INFO  - Stopping java_as_windows_service
+2020-10-15 10:22:00,001 DEBUG - ProcessKill 3532
+2020-10-15 10:22:00,001 INFO  - Stopping process 3532
+2020-10-15 10:22:00,486 INFO  - Finished java_as_windows_service
+2020-10-15 10:22:00,486 DEBUG - Completed. Exit code is 0
+2020-10-15 10:22:01,626 DEBUG - Starting WinSW in service mode
+2020-10-15 10:22:01,672 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar target/executable.jar
+2020-10-15 10:22:01,704 INFO  - Started process 16984
+2020-10-15 10:22:01,704 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
+2020-10-15 10:56:45,314 INFO  - Stopping java_as_windows_service
+2020-10-15 10:56:45,317 DEBUG - ProcessKill 16984
+2020-10-15 10:56:45,323 INFO  - Stopping process 16984
+2020-10-15 10:56:45,787 INFO  - Finished java_as_windows_service
+2020-10-15 10:56:45,789 DEBUG - Completed. Exit code is 0
+2020-10-15 10:58:04,392 DEBUG - Starting WinSW in service mode
+2020-10-15 10:58:04,430 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar executable.jar
+2020-10-15 10:58:04,470 INFO  - Started process 16396
+2020-10-15 10:58:04,477 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
+2020-10-15 12:21:51,905 INFO  - Stopping java_as_windows_service
+2020-10-15 12:21:51,907 DEBUG - ProcessKill 16396
+2020-10-15 12:21:51,913 INFO  - Stopping process 16396
