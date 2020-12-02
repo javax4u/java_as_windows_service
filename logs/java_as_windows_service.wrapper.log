@@ -46,3 +46,27 @@
 2020-10-15 12:21:51,905 INFO  - Stopping java_as_windows_service
 2020-10-15 12:21:51,907 DEBUG - ProcessKill 16396
 2020-10-15 12:21:51,913 INFO  - Stopping process 16396
+2020-11-03 15:29:44,219 DEBUG - Starting WinSW in service mode
+2020-11-03 15:29:49,805 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar executable.jar
+2020-11-03 15:29:53,225 INFO  - Started process 9800
+2020-11-03 15:29:53,260 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
+2020-11-15 13:59:08,623 DEBUG - Starting WinSW in service mode
+2020-11-15 13:59:12,325 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar executable.jar
+2020-11-15 13:59:14,741 INFO  - Started process 9668
+2020-11-15 13:59:14,858 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
+2020-11-15 14:50:33,165 DEBUG - Starting WinSW in service mode
+2020-11-15 14:50:38,235 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar executable.jar
+2020-11-15 14:50:40,413 INFO  - Started process 4296
+2020-11-15 14:50:40,415 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
+2020-11-15 20:32:03,821 DEBUG - Starting WinSW in service mode
+2020-11-15 20:32:04,640 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar executable.jar
+2020-11-15 20:32:04,986 INFO  - Started process 7612
+2020-11-15 20:32:04,988 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
+2020-11-16 15:08:27,391 DEBUG - Starting WinSW in service mode
+2020-11-16 15:08:28,053 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar executable.jar
+2020-11-16 15:08:28,079 INFO  - Started process 7432
+2020-11-16 15:08:28,081 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
+2020-11-29 10:58:18,715 DEBUG - Starting WinSW in service mode
+2020-11-29 10:58:19,962 INFO  - Starting C:\Program Files\Java\jdk1.8.0_201\bin\java -jar executable.jar
+2020-11-29 10:58:21,749 INFO  - Started process 7904
+2020-11-29 10:58:21,750 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to WinSW.TimeBasedRollingLogAppender
